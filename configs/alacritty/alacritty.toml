@@ -1,0 +1,19 @@
+[font]
+size = 16
+[font.offset]
+x = 0
+y = 2
+[font.normal]
+style = "normal"
+family = "RobotoMono Nerd Font Mono"
+
+[font.bold]
+style = "bold"
+family = "RobotoMono Nerd Font Mono"
+
+[font.italic]
+style = "normal"
+family = "RobotoMono Nerd Font Mono"
+
+[terminal.shell]
+program = "fish"
