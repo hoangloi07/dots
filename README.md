@@ -1,6 +1,6 @@
 # Dots file for Linux desktop
 
-## - PACKAGES:
+# - Packages:
     + alacritty
     + niri (Window Manager)
     + hyprlock
@@ -11,6 +11,7 @@
     + brightnessctl
 
 * Quick install
+
     * Arch-based
     ```bash
         $ sudo pacman -Syu alacritty niri hyprlock hypridle fastfetch fish waybar brightnessctl tuned
@@ -25,4 +26,3 @@
 ## Font
     + FiraMono Nerd Font
     + RobotoMono Nerd Font
-
