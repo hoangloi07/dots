@@ -1,4 +1,4 @@
-# Dots file for Linux desktop
+# Dotfiles for Linux desktop
 
 # - Packages:
     + alacritty
