@@ -1,0 +1,19 @@
+# vim:ft=swayconfig
+
+bar {
+    position bottom
+    status_command "                    \
+        while                           \
+            ~/.config/sway/status.sh;   \
+            do sleep 1;                 \
+        done                            \
+    "
+    colors {
+        statusline #d3d0c8
+        background #2d2d2d
+                           # border  # bg      # fg
+        inactive_workspace #393939   #393939   #d3d0c8
+        focused_workspace  #515151   #515151   #d3d0c8
+    }
+    font pango:iMWritingDuo Nerd Font
+}

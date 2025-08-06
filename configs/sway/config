@@ -1,0 +1,26 @@
+include ~/.config/sway/keymap
+include ~/.config/sway/bar
+
+font pango:Inter 10
+output * bg ~/Pictures/evening-sky.png fill
+
+
+# Touchpad & mouse config
+input * {
+    dwt enabled
+    tap enabled
+    natural_scroll enabled
+    middle_emulation enabled
+}
+# keyboard config
+input "type:keyboard" {
+    xkb_options "caps:swapescape"
+    repeat_rate 30
+    repeat_delay 300
+}
+
+default_border none
+gaps inner 1
+gaps outer 1
+
+include /etc/sway/config.d/*
