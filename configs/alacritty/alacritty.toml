@@ -1,19 +1,19 @@
 [font]
-size = 16
+size = 14
 [font.offset]
 x = 0
 y = 2
 [font.normal]
 style = "normal"
-family = "RobotoMono Nerd Font Mono"
+family = "iMWritingMono Nerd Font"
 
 [font.bold]
 style = "bold"
-family = "RobotoMono Nerd Font Mono"
+family = "iMWritingMono Nerd Font"
 
 [font.italic]
 style = "normal"
-family = "RobotoMono Nerd Font Mono"
+family = "iMWritingMono Nerd Font"
 
 [terminal.shell]
 program = "fish"

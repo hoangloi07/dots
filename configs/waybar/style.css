@@ -1,7 +1,7 @@
 * {
-    font-family: 'FiraMono Nerd Font', monospace;
+    font-family: 'CommitMono Nerd Font', monospace;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 window#waybar {
