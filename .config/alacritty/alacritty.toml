@@ -5,15 +5,15 @@ x = 0
 y = 2
 [font.normal]
 style = "normal"
-family = "iMWritingMono Nerd Font"
+family = "Monaco Nerd Font Mono"
 
 [font.bold]
 style = "bold"
-family = "iMWritingMono Nerd Font"
+family = "Monaco Nerd Font Mono"
 
 [font.italic]
 style = "normal"
-family = "iMWritingMono Nerd Font"
+family = "Monaco Nerd Font Mono"
 
 [terminal.shell]
 program = "fish"

@@ -1,10 +1,11 @@
 exec hypridle &
+# exec pipewire &
 
 include ~/.config/sway/keymap
 include ~/.config/sway/bar
 
 font pango:Inter 10
-output * bg ~/Pictures/evening-sky.png fill
+output * bg ~/Pictures/wallpapers/evening-sky.png fill
 
 
 # Touchpad & mouse config
