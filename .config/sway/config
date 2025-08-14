@@ -1,5 +1,8 @@
 exec hypridle &
-# exec pipewire &
+exec wireplumber &
+exec pipewire &
+exec pipewire-pulse &
+exec wlsunset -t 4500 -T 5000 -l 21.028511 -L 105.804817
 
 include ~/.config/sway/keymap
 include ~/.config/sway/bar

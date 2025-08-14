@@ -27,6 +27,6 @@
 
 ## Font
     + iMWriting Nerd Font
-    + FiraMono Nerd Font
-    + RobotoMono Nerd Font
     + Inter
+    + DroidSerif
+    + SF font
