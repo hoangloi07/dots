@@ -1,19 +1,25 @@
 [font]
 size = 14
 [font.offset]
-x = 0
+x = -1
 y = 2
 [font.normal]
-style = "normal"
-family = "iMWritingMono Nerd Font Mono"
+style = "semibold"
+family = "SFMono"
 
 [font.bold]
 style = "bold"
-family = "iMWritingMono Nerd Font Mono"
+family = "SFMono"
 
 [font.italic]
-style = "normal"
-family = "iMWritingMono Nerd Font Mono"
+style = "italic"
+family = "SFMono"
 
 [terminal.shell]
-program = "fish"
+program = "zsh"
+
+[window]
+dynamic_padding = true
+[window.padding]
+x = 5
+y = 5

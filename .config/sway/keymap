@@ -7,10 +7,11 @@ set $up k
 set $right l
 set $term alacritty
 set $menu rofi -show drun -matching fuzzy -font "iMWritingDuo Nerd Font 12"
-
+set $winmenu rofi -show window -matching fuzzy -font "iMWritingDuo Nerd Font 12" 
 # Launch applications
     bindsym $mod+Return exec $term
     bindsym $mod+d exec $menu
+    bindsym $mod+tab exec $winmenu
 
 # WM control
     bindsym $mod+q kill
@@ -87,4 +88,4 @@ set $menu rofi -show drun -matching fuzzy -font "iMWritingDuo Nerd Font 12"
 
 # Gesture
     bindgesture swipe:left workspace prev
-    bindgesture swipe:right workspace prev
+    bindgesture swipe:right workspace next

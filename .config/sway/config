@@ -1,14 +1,11 @@
 exec hypridle &
-exec wireplumber &
-exec pipewire &
-exec pipewire-pulse &
 exec wlsunset -t 4500 -T 5000 -l 21.028511 -L 105.804817
 
 include ~/.config/sway/keymap
 include ~/.config/sway/bar
 
 font pango:Inter 10
-output * bg ~/Pictures/wallpapers/evening-sky.png fill
+output * bg ~/Pictures/wallpapers/flowers.jpg fill
 
 
 # Touchpad & mouse config

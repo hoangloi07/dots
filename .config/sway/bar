@@ -15,5 +15,5 @@ bar {
         inactive_workspace #393939   #393939   #d3d0c8
         focused_workspace  #515151   #515151   #d3d0c8
     }
-    font pango:iMWritingDuo Nerd Font
+    font pango:BlexMono Nerd Font Bold 12
 }
